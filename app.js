@@ -34,13 +34,13 @@ function main() {
 
    incrementInp.addEventListener("keyup", () => {
       if (incrementInp.value < 0) {
-         incrementInp.value = Math.abs(incrementInp.value);
+         incrementInp.value = 0;
       }
    });
 
    decrementInp.addEventListener("keyup", () => {
       if (decrementInp.value < 0) {
-         decrementInp.value = Math.abs(decrementInp.value);
+         decrementInp.value = 0;
       }
    });
 }
