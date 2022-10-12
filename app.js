@@ -49,8 +49,5 @@ function displayResult(output) {
    if (result < 0) {
       result = 0;
    }
-   if (result < 10) {
-      result = 0;
-   }
    output.innerText = result;
 }
